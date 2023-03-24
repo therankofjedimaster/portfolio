@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(235, 242, 245);
+  font-family: 'Lato', sans-serif;
+}
+a {
+  color: palevioletred;
+  text-align: center;
+}
+a:hover {
+  color: #7871fc;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: rgb(86, 9, 131);
+}
+h1,
+h2 {
+  padding: 10px;
+}
+h1 {
+  font-size: 35px;
+}
+h2,
+h3 {
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  opacity: 0.8;
+  line-height: 2;
+}
+.container {
+  display: block;
+}
+.material {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #7871fc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 10px;
+  padding: 20px;
+  max-width: 100%;
+  text-align: center;
+}
+.contact {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 20px;
+}
+.mail {
+  color: #7871fc;
+}
