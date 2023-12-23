@@ -31,6 +31,14 @@ footer {
   opacity: 0.8;
   line-height: 2;
 }
+button {
+  background-color: #95e9e9;
+  border-radius: 10px;
+  border: 2px solid #272343;
+  display: block;
+  font-weight: 600;
+  padding: 10px;
+}
 .container {
   display: block;
 }
@@ -58,4 +66,45 @@ grid-column-gap: 10px;
 }
 .mail {
   color: #7871fc;
+}
+.firstex button,
+.secondex button,
+.thirdex button {
+  display: block;
+  margin: 0 auto;
+}
+.firstex p,
+.secondex p,
+.thirdex p {
+  line-height: 2;
+  text-align: justify;
+}
+.firstex,
+.thirdex {
+  background-color: #def0f0;
+}
+.firstex,
+.thirdex,
+.secondex {
+  padding: 20px;
+}
+
+@media (max-width: 740px) {
+  .firstex button,
+.secondex button,
+.thirdex button {
+  display: block;
+  margin: 0 auto;
+}
+.firstex p,
+.secondex p,
+.thirdex p {
+  line-height: 2;
+  text-align: justify;
+}
+.firstex,
+.thirdex,
+.secondex {
+  padding: 20px;
+}
 }
