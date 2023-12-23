@@ -39,23 +39,9 @@ button {
   font-weight: 600;
   padding: 10px;
 }
-.container {
+.container{
   display: block;
-}
-.material {
-  display: flex;
- display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 10px;
-  flex-direction: row;
-  border: 3px solid #7871fc;
-  border-radius: 10px;
-  justify-content: space-evenly;
-  margin: 15px 10px;
-  padding: 10px;
   max-width: 100%;
-  text-align: center;
 }
 .contact {
   text-align: center;
@@ -88,8 +74,15 @@ grid-column-gap: 10px;
 .secondex {
   padding: 20px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media (max-width: 740px) {
+  .container{
+    max-width: 100%;
+  }
   .firstex button,
 .secondex button,
 .thirdex button {
