@@ -22,8 +22,30 @@
 <body>
 
     <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#movies">Short Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Video Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#animation">Animation/Sound Redesign</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <h1>Eugenia Zanarini's Sound Design Portfolios</h1>
-        <h2 class="mt-5">Short Movies</h2>
+        <h2 class="mt-5" id="movies">Short Movies</h2>
         <div class="row d-flex mt-5">
             <div class="col-md-6">
                 <img src="images/sisters.jpeg" alt="Sisters by MonkeyDribble Films" class="img-fluid rounded" />
@@ -39,7 +61,7 @@
                         "Sisters"</button></a>
             </div>
 
-            <h2 class="mt-5">My Game Portfolio</h2>
+            <h2 class="mt-5" id="games">My Video Game Portfolio</h2>
             <div class="row d-flex mt-5 secondex">
                 <div class="col-md-6">
                     <img width="300px" height="300px" src="images/engulfed.png" alt="Unlighted Ruins"
@@ -138,7 +160,7 @@
                 </div>
             </div>
 
-            <h2 class="mt-5">My Animation/Sound-Redesign Portfolio</h2>
+            <h2 class="mt-5" id="animation">My Animation/Sound-Redesign Portfolio</h2>
             <div class="row d-flex mt-5 firstex">
                 <div class="col-md-6">
                     <img src="images/sotor.jpg" alt="Star Wars Fan Animation" class="img-fluid rounded" />
